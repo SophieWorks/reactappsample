@@ -1,13 +1,16 @@
 import React from 'react';
-import Hello from './sayHello';
+import Video from './components/video';
+import Top from './top';
 
 function App(){ 
 
   return(
-    <div>
+    <div className="app">
+      <Top />
       <h1>Hello React! new</h1>
       <h1>This is the App Component</h1>
-      <Hello />
+      <Video vidlink = "Tune in as Reanisa Mendonca from "/>
+
     </div>
   );
 
